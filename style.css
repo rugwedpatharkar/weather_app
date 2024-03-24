@@ -1,0 +1,94 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    padding: auto;
+    background: linear-gradient(100deg, #ADD8E6, #FFFFE0); 
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.app-title {
+    text-align: center;
+    color: #333;
+    font-size: 48px; /* Increased font size */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700; /* Bold */
+    font-style: italic; /* Italic */
+}
+
+.weatherForm {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cityInput {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px; /* Increased font size */
+}
+
+.submitBtn {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px; /* Increased font size */
+}
+
+.submitBtn:hover {
+    background-color: #45a049;
+}
+
+.card {
+    padding: 40px; /* Increased padding */
+    background: linear-gradient(135deg, #FFFFE0, #ADD8E6); /* Light yellow to light blue gradient */
+    border-radius: 20px; /* Increased border radius */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Increased box shadow */
+    height: 400px; /* Increased height */
+    display: flex; /* Added display flex */
+    flex-direction: column; /* Align content in column */
+    justify-content: center; /* Center content vertically */
+    transition: background 0.5s; /* Smooth background transition */
+}
+
+.cityName {
+    margin-top: 0;
+    text-align: center;
+    font-size: 48px; /* Increased font size */
+    color: #333;
+    font-weight: 700; /* Bold */
+    font-style: italic; /* Italic */
+}
+
+.weather-info {
+    text-align: center;
+}
+
+.temp, .weather, .description {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 36px; /* Increased font size */
+    color: #555;
+    font-weight: 700; /* Bold */
+}
+ .emoji{
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+    padding: 0
+ }
+.errorDisplay {
+    color: #ff0000;
+    font-weight: bold;
+}
